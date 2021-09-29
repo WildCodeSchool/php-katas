@@ -7,7 +7,6 @@ use PHPUnit\Framework\TestCase;
 
 class HelloYouTest extends TestCase
 {
-
     public function testSayHello()
     {
         $helloYou = new HelloYou();

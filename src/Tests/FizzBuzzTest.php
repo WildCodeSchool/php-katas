@@ -6,7 +6,6 @@ use PHPUnit\Framework\TestCase;
 
 class FizzBuzzTest extends TestCase
 {
-
     public function testFizzBuzz()
     {
         $fizzBuzz = new FizzBuzz();
