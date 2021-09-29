@@ -1,8 +1,8 @@
 <?php
 
-namespace Wcs\Katas\Tests;
+namespace App;
 
-use Wcs\Katas\Exercises\HelloYou;
+use App\HelloYou;
 use PHPUnit\Framework\TestCase;
 
 class HelloYouTest extends TestCase

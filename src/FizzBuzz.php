@@ -1,6 +1,6 @@
 <?php
 
-namespace Wcs\Katas\Exercises;
+namespace App;
 
 /**
  * Create a function `fizzBuzz` which takes a number as parameter, and returns:

@@ -6,7 +6,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Wcs\\Katas\\": "src/"
+            "App\\": "src/"
         }
     },
     "authors": [

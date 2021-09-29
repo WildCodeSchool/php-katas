@@ -1,6 +1,6 @@
 <?php
 
-namespace Wcs\Katas\Exercises;
+namespace App;
 
 /**
  * Create a function `getLikes` which receives an array of names, and returns:

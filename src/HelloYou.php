@@ -1,6 +1,6 @@
 <?php
 
-namespace Wcs\Katas\Exercises;
+namespace App;
 
 /**
  * Create a function `sayHello` which takes a string as parameter and returns:

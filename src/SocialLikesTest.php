@@ -1,9 +1,9 @@
 <?php
 
-namespace Wcs\Katas\Tests;
+namespace App;
 
+use App\SocialLikes;
 use PHPUnit\Framework\TestCase;
-use Wcs\Katas\Exercises\SocialLikes;
 
 class SocialLikesTest extends TestCase
 {
