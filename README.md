@@ -1,4 +1,4 @@
-# JS Katas
+# PHP Katas
 
 ## Tests
 
