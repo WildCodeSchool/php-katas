@@ -10,6 +10,6 @@
 
 ### Fundamental
 
-- [hello-you](./src/Exercises/HelloYou.php)
-- [fizz-buzz](./src/Exercises/FizzBuzz.php)
-- [social-likes](./src/Exercises/SocialLikes.php)
+- [hello-you](./src/HelloYou/HelloYou.php)
+- [fizz-buzz](./src/FizzBuzz/FizzBuzz.php)
+- [social-likes](./src/SocialLikes/SocialLikes.php)
