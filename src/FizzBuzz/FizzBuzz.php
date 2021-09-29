@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace App\FizzBuzz;
 
 /**
  * Create a function `fizzBuzz` which takes a number as parameter, and returns:

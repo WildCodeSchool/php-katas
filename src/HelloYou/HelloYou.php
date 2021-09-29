@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace App\HelloYou;
 
 /**
  * Create a function `sayHello` which takes a string as parameter and returns:

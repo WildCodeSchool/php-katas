@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace App\SocialLikes;
 
 /**
  * Create a function `getLikes` which receives an array of names, and returns:

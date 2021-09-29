@@ -1,8 +1,8 @@
 <?php
 
-namespace App;
+namespace App\FizzBuzz;
 
-use App\FizzBuzz;
+use App\FizzBuzz\FizzBuzz;
 use PHPUnit\Framework\TestCase;
 
 class FizzBuzzTest extends TestCase

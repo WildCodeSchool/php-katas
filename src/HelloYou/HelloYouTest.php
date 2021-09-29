@@ -1,8 +1,8 @@
 <?php
 
-namespace App;
+namespace App\HelloYou;
 
-use App\HelloYou;
+use App\HelloYou\HelloYou;
 use PHPUnit\Framework\TestCase;
 
 class HelloYouTest extends TestCase

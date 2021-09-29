@@ -2,7 +2,7 @@
 
 namespace App;
 
-use App\SocialLikes;
+use App\SocialLikes\SocialLikes;
 use PHPUnit\Framework\TestCase;
 
 class SocialLikesTest extends TestCase
