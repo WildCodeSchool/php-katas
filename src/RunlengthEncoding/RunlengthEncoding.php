@@ -19,5 +19,15 @@ namespace App\RunlengthEncoding;
  */
 class RunlengthEncoding
 {
-    // TODO
+    public function encode(string $stringToTest) // "aaa"
+    {
+        $result = [];
+        $arrayToTest = str_split($stringToTest); // ["a", "a", "a"]
+        while (!empty($arrayToTest)) {
+            
+        }
+    }
 }
+
+$rl = new RunlengthEncoding();
+$rl->encode("aaa");
