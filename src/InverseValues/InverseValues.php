@@ -20,8 +20,4 @@ namespace App\InverseValues;
 class InverseValues
 {
     // TODO
-    public function inverse($array)
-    {
-        return [-1];
-    }
 }
