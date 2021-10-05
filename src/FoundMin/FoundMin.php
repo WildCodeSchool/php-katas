@@ -11,7 +11,7 @@ namespace App\FoundMin;
  * - [3, -2, 1] -> -2
  * - [] -> null
  *
- * You can't use the existing PHP function min()!
+ * You can't sort the array nor use the existing PHP function min()!
 */
 class FoundMin
 {
