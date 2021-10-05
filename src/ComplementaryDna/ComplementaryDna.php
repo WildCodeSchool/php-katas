@@ -13,24 +13,5 @@ namespace App\ComplementaryDna;
  */
 class ComplementaryDna
 {
-    public function complementary(string $dna)
-    {
-        $resultDNA = "";
-        for ($i = 0; $i <strlen($dna); $i++) {
-            switch ($dna[$i]) {
-                case "A":
-                    $resultDNA = $resultDNA . "T";
-                    break;
-                case "T":
-                    $resultDNA = $resultDNA . "A";
-                    break;
-                case "C":
-                    $resultDNA = $resultDNA . "G";
-                    break;
-                default:
-                    $resultDNA = $resultDNA . "C";
-            }
-        }
-        return $resultDNA;
-    }
+    // TODO
 }
