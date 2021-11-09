@@ -7,6 +7,8 @@ namespace App\Palindrome;
  * Create a function `isPalindrome` that returns if a word is a palindrome.
  * This function must not be case sensitive.
  *
+ * You must not use the `array_reverse` or `strrev` function.
+ *
  * Bonus: If the word is null or empty, throw an exception
  *
  * Example:
