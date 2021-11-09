@@ -9,7 +9,7 @@ namespace App\Palindrome;
  *
  * You must not use the `array_reverse` or `strrev` function.
  *
- * Bonus: If the word is null or empty, throw an exception
+ * Bonus: If the word is empty, throw an exception
  *
  * Example:
  * - "rotor" -> true
