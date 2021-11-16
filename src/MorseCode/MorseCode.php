@@ -8,6 +8,7 @@ namespace App\MorseCode;
  * - each word being separated by three spaces
  * - each letter being separated by one space
  *
+ * eg: "CODE" => "-.-. --- -.. ."
  * eg: "WILD CODE" => ".-- .. .-.. -..   -.-. --- -.. ."
  *
  * Add your own tests
