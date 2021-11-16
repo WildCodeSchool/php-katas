@@ -2,10 +2,9 @@
 
 namespace App\MorseCode;
 
-use App\MorseCode\MorseCode;
 use PHPUnit\Framework\TestCase;
 
-class TennisScoreTest extends TestCase
+class MorseCodeTest extends TestCase
 {
     public function testWorks()
     {
