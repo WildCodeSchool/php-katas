@@ -7,6 +7,10 @@ namespace App\MorseCode;
  * Morse code is consisting of dots and dashes:
  * - each word being separated by three spaces
  * - each letter being separated by one space
+ *
+ * eg: "WILD CODE" => ".-- .. .-.. -..   -.-. --- -.. ."
+ *
+ * Add your own tests
  */
 class MorseCode
 {
