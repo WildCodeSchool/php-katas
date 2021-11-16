@@ -8,7 +8,7 @@ class MorseCodeTest extends TestCase
 {
     public function testWorks()
     {
-        self::assertTrue(true);
+        $this->assertTrue(true);
     }
 
     // TODO: add your own test
