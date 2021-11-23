@@ -1,6 +1,6 @@
 <?php
 
-namespace App\AbreviateNames;
+namespace App\AbbreviateNames;
 
 /*
  * Create a function `abbreviate` which converts a name into initials.
@@ -15,7 +15,7 @@ namespace App\AbreviateNames;
  * Add you own tests.
  *
  */
-class AbreviateNames
+class AbbreviateNames
 {
     // TODO
 }

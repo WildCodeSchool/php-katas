@@ -1,14 +1,14 @@
 <?php
 
-namespace App\AbreviateNames;
+namespace App\AbbreviateNames;
 
 use PHPUnit\Framework\TestCase;
 
-class AbreviateNamesTest extends TestCase
+class AbbreviateNamesTest extends TestCase
 {
     public function testFizzBuzz()
     {
-        $abreviateNames = new AbreviateNames();
+        $abbreviateNames = new AbbreviateNames();
         self::assertEquals(true, true);
         // TODO: add your own test
     }
