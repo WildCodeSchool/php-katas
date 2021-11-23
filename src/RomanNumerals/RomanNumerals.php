@@ -19,7 +19,7 @@ namespace App\RomanNumerals;
  * - XLIII   -> 43
  * - CXI     -> 111
  * - MDCLXVI -> 1666
-*/
+ */
 class RomanNumerals
 {
     private array $romanNumerals = [
