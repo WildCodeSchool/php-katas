@@ -1,10 +1,10 @@
 <?php
 
-namespace App\MorseCode;
+namespace App\CaesarCipher;
 
 use PHPUnit\Framework\TestCase;
 
-class MorseCodeTest extends TestCase
+class CaesarCipherTest extends TestCase
 {
     public function testDefault()
     {

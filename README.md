@@ -10,17 +10,38 @@
 
 ### Fundamental
 
-- [hello-you](./src/HelloYou/HelloYou.php)
-- [fizz-buzz](./src/FizzBuzz/FizzBuzz.php)
+- [HelloYou](./src/HelloYou/HelloYou.php)
+- [FizzBuzz](./src/FizzBuzz/FizzBuzz.php)
+- [SumOfMultiples](./src/SumOfMultiples/SumOfMultiples.php)
 
 ### Array
 
-- [social-likes](./src/SocialLikes/SocialLikes.php)
-- [found-min](./src/FoundMin/FoundMin.php)
-- [inverse-values](./src/InverseValues/InverseValues.php)
-- [sum-of-odds](./src/SumOfOdds/SumOfOdds.php)
-- [uniq](./src/Uniq/Uniq.php)
+- [SocialLikes](./src/SocialLikes/SocialLikes.php)
+- [FoundMin](./src/FoundMin/FoundMin.php)
+- [SumOfOdds](./src/SumOfOdds/SumOfOdds.php)
+- [InverseValues](./src/InverseValues/InverseValues.php)
+- [Uniq](./src/Uniq/Uniq.php)
+
+### Database
+
+- [FoodQueries](./src/FoodQueries/FoodQueries.php)
 
 ### String
 
-- [complementary-dna](./src/ComplementaryDna/ComplementaryDna.php)
+- [ComplementaryDna](./src/ComplementaryDna/ComplementaryDna.php)
+- [Palindrome](./src/Palindrome/Palindrome.php)
+- [AbbreviateNames](./src/AbbreviateNames/AbbreviateNames.php)
+
+### Array Advanced
+
+- [TennisScore](./src/TennisScore/TennisScore.php)
+
+### String Advanced
+
+- [RunlengthEncoding](./src/RunlengthEncoding/RunlengthEncoding.php)
+- [CaesarCipher](./src/CaesarCipher/CaesarCipher.php)
+
+### Collections
+
+- [MorseCode](./src/MorseCode/MorseCode.php)
+- [RomanNumerals](./src/RomanNumerals/RomanNumerals.php)

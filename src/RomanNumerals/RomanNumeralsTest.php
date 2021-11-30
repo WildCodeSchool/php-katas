@@ -6,7 +6,7 @@ use PHPUnit\Framework\TestCase;
 
 class RomanNumeralsTest extends TestCase
 {
-    public function testWorks()
+    public function testDefault()
     {
         $this->assertTrue(true);
     }
