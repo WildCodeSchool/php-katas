@@ -1,10 +1,10 @@
 <?php
 
-namespace App\TennisScore;
+namespace App\PyramidBuilder;
 
 use PHPUnit\Framework\TestCase;
 
-class TennisScoreTest extends TestCase
+class PyramidBuilderTest extends TestCase
 {
     public function testDefault()
     {

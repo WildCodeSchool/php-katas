@@ -35,6 +35,7 @@
 ### Array Advanced
 
 - [TennisScore](./src/TennisScore/TennisScore.php)
+- [PyramidBuilder](./src/PyramidBuilder/PyramidBuilder.php)
 
 ### String Advanced
 
