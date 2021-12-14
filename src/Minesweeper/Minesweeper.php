@@ -3,7 +3,7 @@
 namespace App\Minesweeper;
 
 /**
- * Create a function `sweep` which takes a grid and two numbers as parameters :
+ * Create a function `sweep` which takes a grid and two numbers as argument :
  * - grid : a minesweeper matrix where 0 are empty cells and 1 are bombs.
  *          The width and height of the grid can vary.
  * - row : the vertical coordinate of the cell to sweep
@@ -11,10 +11,10 @@ namespace App\Minesweeper;
  *
  * The function will check the cell using the coordinates and returns :
  * - "kaboom", if it contains a boom
- * - the number of adjacent bombs, if it's empty
+ * - or the number of adjacent bombs (as a string)
  *
  * The function will throw :
- * - InvalidArgumentException if the grid is empty or not a matrix
+ * - InvalidArgumentException if the grid is not a matrix
  * - InvalidArgumentException if at least one value of the grid is not 0 or 1
  * - RangeException if a row or column is out of bounds
  *
@@ -27,7 +27,7 @@ namespace App\Minesweeper;
  * ]
  * row : 1
  * column : 2
- * result : 2
+ * result : "2"
  */
 class Minesweeper
 {
