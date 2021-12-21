@@ -32,6 +32,9 @@ namespace App\MasterMind;
  * ainsi que la proposition du joueur, et qui doit retourner un tableau avec :
  * - le nombre de couleurs trouvées mais mal placées
  * - le nombre de couleurs trouvées bien placées
+ *
+ * Si le maître du jeu ou le joueur ne fournissent pas une valeur attendue,
+ * lever l'exception InvalidArgumentException.
  */
 class MasterMind
 {
