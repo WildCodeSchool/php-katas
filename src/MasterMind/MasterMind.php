@@ -22,7 +22,7 @@ namespace App\MasterMind;
  * et faisant une proposition, ex :
  *  - ['pink', 'yellow', 'green', 'orange']
  *
- *  Le maître du jeu va alors lui dire le nombre de couleur trouvé et bien placé,
+ *  Le maître du jeu va alors lui indiquer le nombre de couleur trouvé et bien placé,
  *  et le nombre de couleur trouvé mal placé, ex :
  * - [2, 1]
  * > 2 car 'pink' et 'orange' sont corrects mais mal placés
