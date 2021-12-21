@@ -19,7 +19,7 @@ namespace App\MasterMind;
  * - ['yellow', 'yellow', 'pink', 'green']
  *
  * Le joueur doit deviner la couleur et la position de la sélection du maître du jeu
- * et faisant des propositions, ex :
+ * et faisant une proposition, ex :
  *  - ['pink', 'yellow', 'green', 'orange']
  *
  *  Le maître du jeu va alors lui dire le nombre de couleur trouvé et bien placé,
