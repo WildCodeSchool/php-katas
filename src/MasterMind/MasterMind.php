@@ -22,7 +22,7 @@ namespace App\MasterMind;
  * et faisant une proposition, ex :
  *  - ['pink', 'yellow', 'green', 'orange']
  *
- *  Le maître du jeu va alors lui indiquer le nombre de couleurs trouvées et mal placées,
+ *  Le maître du jeu va alors lui indiquer le nombre de couleurs trouvées mais mal placées,
  *  et le nombre de couleurs trouvées et bien placées, ex :
  * - [2, 1]
  * > 2 car 'pink' et 'orange' sont corrects mais mal placés
@@ -44,6 +44,14 @@ class MasterMind
     const COLOR_ORANGE = 'orange';
     const COLOR_GREEN = 'green';
     const COLOR_PINK = 'pink';
+    const ALL_COLORS = [
+        self::COLOR_YELLOW,
+        self::COLOR_BLUE,
+        self::COLOR_PURPLE,
+        self::COLOR_ORANGE,
+        self::COLOR_GREEN,
+        self::COLOR_PINK,
+    ];
 
     // TODO
 }
