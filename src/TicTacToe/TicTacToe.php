@@ -11,7 +11,7 @@ namespace App\TicTacToe;
  * grid :
  * [
  *   ['X', 'O', 'O'],
- *   ['X', 'O', 'O'],
+ *   ['X', 'O', ' '],
  *   ['X', ' ', ' '],
  * ]
  *
