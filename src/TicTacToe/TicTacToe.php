@@ -5,7 +5,7 @@ namespace App\TicTacToe;
 /**
  * Create a function `winner` which analyses a 3x3 tic-tac-toe grid.
  * - 'X' represents player X
- * - '0' represents player 0
+ * - 'O' represents player O
  * - ' ' (space) is an empty cell
  *
  * grid :
@@ -19,7 +19,7 @@ namespace App\TicTacToe;
  * - 'X wins' when X wins
  * - 'O wins' when O wins
  * - 'Cat's game' if it's a draw or if nobody wins
- * - '{player} cheated' where {player} is replaced by the player who cheated.
+ * - Bonus: '{player} cheated' where {player} is replaced by the player who cheated.
  *
  * The function should throw :
  * - RangeException if the grid has not the size expected
