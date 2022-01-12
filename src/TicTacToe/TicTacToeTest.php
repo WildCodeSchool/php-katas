@@ -17,6 +17,17 @@ class TicTacToeTest extends TestCase
         ['O', 'O', 'O'],
         [' ', ' ', 'X'],
     ];
+    private array $xColumnWins = [
+        ['X', 'O', 'X'],
+        ['O', 'O', 'X'],
+        [' ', ' ', 'X'],
+    ];
+
+    private array $oColumnWins = [
+        ['X', 'O', 'X'],
+        ['O', 'O', ' '],
+        ['X', 'O', 'X'],
+    ];
 
     private array $catsGame = [
         ['O', 'X', 'O'],
@@ -47,5 +58,13 @@ class TicTacToeTest extends TestCase
         $this->assertTrue(true);
     }
 
-    // TODO: add your own test
+    public function testWinner()
+    {
+        $winner = new TicTacToe();
+        $this->assertEquals("X wins", $winner->winner($this->xWins));
+        $this->assertEquals("O wins", $winner->winner($this->oWins));
+        $this->assertEquals("O wins", $winner->winner($this->oColumnWins));
+        $this->assertEquals("X wins", $winner->winner($this->xColumnWins));
+        $this->assertEquals("Cat's game", $winner->winner($this->catsGame));
+    }
 }

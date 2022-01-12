@@ -28,4 +28,32 @@ namespace App\TicTacToe;
 class TicTacToe
 {
     // TODO
+    public function winner(array $array): string
+    {
+        $a = $array[0][0];
+        $b = $array[0][1];
+        $c = $array[0][2];
+        $d = $array[1][0];
+        $e = $array[1][1];
+        $f = $array[1][2];
+        $g = $array[2][0];
+        $h = $array[2][1];
+        $i = $array[2][2];
+        $matrice = [
+            [$a, $b, $c],
+            [$d, $e, $f],
+            [$g, $h, $i],
+            [$a, $d, $g],
+            [$b, $e, $h],
+            [$c, $f, $i],
+            [$a, $e, $i],
+            [$c, $e, $g],
+        ];
+        for ($i=0; $i< 8; $i++) {
+            if (in_array(3, array_count_values($matrice[$i]))) {
+                return $matrice[$i][0] . " wins";
+            }
+        }
+        return "Cat's game";
+    }
 }
