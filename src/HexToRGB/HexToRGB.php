@@ -10,7 +10,7 @@ namespace App\HexToRGB;
  *
  * A hexadecimal digit (base 16) goes from 0 to 9 and then from A to F (10 to 15).
  * Each color group contains two digits, and goes from 00 to FF (255).
- * A RBG array contains the value of each color group in decimal.
+ * A RGB array contains the value of each color group in decimal.
  *
  * If you convert "#FFD700" into a RGB array, you'll obtain [255, 215, 0].
  *
